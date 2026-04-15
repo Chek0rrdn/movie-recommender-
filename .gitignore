@@ -1,0 +1,94 @@
+# .gitignore file created for free with Tower (https://www.git-tower.com/)
+# For suggestions or improvements please contact us using support@git-tower.com
+# Generated on 2026-04-15
+# Includes: jupyter
+
+### Universal ###
+# Common files that should be ignored in all projects
+
+# Logs
+*.log
+# Temporary files
+*.tmp
+*~
+
+*.bak
+# Environment files (containing secrets, API keys, credentials)
+.env
+*.env
+.env.*
+
+# Local configuration that shouldn't be shared
+*.local
+
+### Jupyter ###
+# Jupyter Notebook checkpoints and temporary files
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints.*
+# Jupyter Notebook temp files
+
+.jupyter/
+jupyter_notebook_config.*
+jupyter_notebook_config.json
+jupyter_notebook_config.py
+jupyter_server_config.*
+
+# Jupyter Lab
+.jupyterlab-config
+.jupyterlab/
+jupyterlab-workspace.json
+labconfig/
+
+lab/
+# Jupyter Cache and Metadata
+.jupyter-cache/
+*.jupyterlite.json
+*.jupytext
+
+*.jupytext.py
+.jupytext.toml
+.jupytext.yml
+# Notebook conversions
+*.nbconvert.ipynb
+
+*.nbconvert/
+*.html
+*.pdf
+*.slides.html
+# Virtual Environments
+
+.env
+venv/
+ENV/
+# Data files (often large)
+*.csv
+
+*.dat
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+
+# Output and visualization files
+plots/
+figures/
+output/
+results/
+
+*.png
+*.jpg
+*.svg
+# Temporary and cache files
+__pycache__/
+
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+
+*.txt
+!requirements.txt
